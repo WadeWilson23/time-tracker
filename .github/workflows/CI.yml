@@ -21,6 +21,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build Stage
-      run: echo "Build request received"
+      run: echo "Build request received and completed"
     - name: stopping server
       run: az vm stop    --resource-group RG1     --name VMR
