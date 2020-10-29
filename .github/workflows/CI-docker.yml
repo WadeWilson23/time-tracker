@@ -20,4 +20,4 @@ jobs:
     - name: Build Stage
       run: echo "Build request received and completed"
     - name: print token number 
-      run: echo $PWD && cat /home/github/token.txt
+      run: echo $PWD 
